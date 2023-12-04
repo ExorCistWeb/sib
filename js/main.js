@@ -34,3 +34,12 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+var swiper = new Swiper(".resultStudSwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    cssMode: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
