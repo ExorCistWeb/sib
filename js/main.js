@@ -43,3 +43,14 @@ var swiper = new Swiper(".resultStudSwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+function playVideo(button) {
+    var videoPreview = button.closest('.video_preview');
+    videoPreview.style.display = 'none';
+
+    var iframe = videoPreview.nextElementSibling;
+    iframe.style.display = 'block';
+
+    // Автоматический запуск видео после скрытия превью
+    iframe.src += "&autoplay=1";
+}
