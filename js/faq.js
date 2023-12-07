@@ -25,3 +25,22 @@ $(document).ready(function() {
         $('.arrow').not($(this).find('.arrow')).css('transform', 'rotate(0deg)');
     });
 });
+$(document).ready(function() {
+    // Функция для анимации цифр
+    function animateNumbers(target, start, end, duration) {
+        $({ value: start }).animate({ value: end }, {
+            duration: duration,
+            step: function() {
+                $(target).text(Math.floor(this.value));
+            },
+            complete: function() {
+                $(target).text(end);
+            }
+        });
+    }
+
+    // Анимация при загрузке страницы
+    animateNumbers('.mission_result_box:nth-child(1) span', 0, 300, 2000);
+    animateNumbers('.mission_result_box:nth-child(2) span', 0, 3, 2000);
+    animateNumbers('.mission_result_box:nth-child(3) span', 0, 46, 2000);
+});

@@ -1581,3 +1581,170 @@
         line-height: normal;
         font-family: 'Mulish', sans-serif;
     }
+    /* эффекты */
+    
+    ul li a,
+    .footer_bottom a {
+        transition: color 0.3s ease-in-out;
+    }
+    
+    ul li a:hover,
+    .footer_bottom a:hover {
+        color: var(--red_two);
+        transition: color 0.3s ease-in-out;
+    }
+    
+    .call_btn,
+    .more_btn,
+    .btn,
+    .orange_btn {
+        transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+    
+    .call_btn:hover,
+    .more_btn:hover,
+    .btn:hover,
+    .orange_btn:hover {
+        color: var(--black_text);
+        background: var(--white);
+        transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+    
+    svg path {
+        transition: fill 0.3s ease-in-out;
+    }
+    
+    .more_btn:hover svg path,
+    .btn:hover svg path {
+        fill: var(--black_text);
+        transition: fill 0.3s ease-in-out;
+    }
+    
+    .kurs_box {
+        background-size: 100%;
+        background-position: center center;
+        overflow: hidden;
+        transition: background 0.3s ease-in-out;
+    }
+    
+    .kurs_box:hover {
+        background-size: 105%;
+        background-position: center center;
+    }
+    
+    .works_box_link {
+        transition: background 0.3s ease-in-out;
+    }
+    
+    .works_box_link:hover {
+        background-color: var(--red);
+        transition: background 0.3s ease-in-out;
+    }
+    
+    .accordion_btn .arrow {
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .accordion_btn:hover .arrow {
+        transition: all 0.3s ease-in-out;
+        background: #C84837;
+    }
+    
+    .accordion_btn:active .arrow {
+        transition: all 0.3s ease-in-out;
+        background: var(--red);
+    }
+    
+    .program_box_black,
+    .program_box_red,
+    .program_box_white {
+        transition: background 0.3s ease-in-out;
+    }
+    
+    .program_box_black:hover {
+        transition: background 0.3s ease-in-out;
+        background: var(--black_bg);
+    }
+    
+    .program_box_red:hover {
+        transition: background 0.3s ease-in-out;
+        background: #C84837;
+    }
+    
+    .btn_white {
+        transition: background 0.3s ease-in-out;
+    }
+    
+    .program_box_white:hover,
+    .btn_white:hover {
+        transition: background 0.3s ease-in-out;
+        background: #F6F6F6;
+    }
+    
+    .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after {
+        content: '' !important;
+    }
+    
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+        content: '' !important;
+    }
+    
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 48px !important;
+        height: 48px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        border-radius: 200px;
+        background: var(--gray_two);
+        transition: background 0.3s ease-in-out;
+    }
+    
+    .swiper-button-prev:hover,
+    .swiper-button-next:hover {
+        background: var(--white);
+        transition: background 0.3s ease-in-out;
+    }
+    
+    .swiper-button-next {
+        right: var(--swiper-navigation-sides-offset, 0px) !important;
+    }
+    
+    .swiper-button-prev {
+        left: var(--swiper-navigation-sides-offset, 0px) !important;
+    }
+    
+    .swiper-button-prev svg,
+    .swiper-button-next svg {
+        width: 20px !important;
+        height: 20px !important;
+        transition: background 0.3s ease-in-out;
+    }
+    
+    #result_stud,
+    #faq,
+    #program {
+        margin-top: -3px;
+    }
+    
+    .swiper-button-prev svg path,
+    .swiper-button-next svg path {
+        transition: fill 0.3s ease-in-out;
+    }
+    
+    .swiper-button-prev:hover svg path,
+    .swiper-button-next:hover svg path {
+        fill: var(--black_text);
+        transition: fill 0.3s ease-in-out;
+    }
+    
+    .sw_btn {
+        background: #D9D9D9;
+    }
+    
+    .mission_result .mission_result_box:first-child span::after {
+        content: '+';
+    }

@@ -1,0 +1,63 @@
+@media (max-width:1280px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+    .whom_content,
+    .works_content {
+        justify-content: center;
+    }
+    .kurs_box {
+        background-repeat: no-repeat;
+        background-size: cover !important;
+    }
+    #main {
+        max-height: 900px;
+    }
+    section {
+        padding-top: 90px !important;
+    }
+    .orange_btn {
+        margin: 20px 40px 0;
+    }
+    .mission_pc_img {
+        max-width: 50%;
+    }
+    #feedback .wrapper,
+    #format .wrapper,
+    #result_stud .wrapper {
+        padding: 0;
+    }
+    .black_h2,
+    .format_wrapper {
+        padding: 0 40px;
+    }
+    .resultStudSwiper .swiper-wrapper,
+    .mySwiper .swiper-wrapper,
+    .title_margin,
+    .sub_title,
+    .title {
+        margin-left: 40px !important;
+    }
+    .format {
+        width: 100%;
+        margin: 40px 0 54px;
+    }
+    .program_box_three_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .program_box_three_img {
+        border-radius: 16px;
+        overflow: hidden;
+    }
+    .program_content,
+    .program_wrapper {
+        gap: 30px;
+    }
+    .program_box_three {
+        height: 340px;
+    }
+}
+
+@media (max-width:1080px) {}

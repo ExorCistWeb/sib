@@ -26,18 +26,20 @@ var swiper = new Swiper(".resultSwiperBottom", {
     allowTouchMove: false
 });
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 2,
+    slidesPerView: 'auto',
     spaceBetween: 30,
     cssMode: true,
+    loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
 });
 var swiper = new Swiper(".resultStudSwiper", {
-    slidesPerView: 3,
+    slidesPerView: 'auto',
     spaceBetween: 30,
     cssMode: true,
+    loop: true,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
