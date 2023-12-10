@@ -1339,6 +1339,10 @@
         max-width: 755px;
     }
     
+    .more_btn2 {
+        max-width: 300px;
+    }
+    
     .popup .white_p {
         margin-top: 32px;
         font-size: 18px;
