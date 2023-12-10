@@ -28,11 +28,30 @@ var swiper = new Swiper(".resultSwiperBottom", {
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 'auto',
     spaceBetween: 30,
-    cssMode: true,
+
     loop: true,
+    breakpoints: {
+
+        100: {
+
+            spaceBetween: 20,
+            centeredSlides: true,
+            loop: false,
+        },
+        768: {
+            loop: true,
+            centeredSlides: false,
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+        }
+    },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
     },
 });
 var swiper = new Swiper(".resultStudSwiper", {
@@ -40,9 +59,28 @@ var swiper = new Swiper(".resultStudSwiper", {
     spaceBetween: 30,
     cssMode: true,
     loop: true,
+    breakpoints: {
+
+        100: {
+
+            spaceBetween: 20,
+            centeredSlides: true,
+            loop: false,
+        },
+        768: {
+            loop: true,
+            centeredSlides: false,
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+        }
+    },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
     },
 });
 
@@ -56,3 +94,12 @@ function playVideo(button) {
     // Автоматический запуск видео после скрытия превью
     iframe.src += "&autoplay=1";
 }
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});

@@ -138,6 +138,33 @@
         background: none;
     }
     
+    .soc_box a {
+        cursor: pointer;
+    }
+    
+    .soc_box,
+    .soc_flex {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .soc_flex a {
+        background: #212121;
+        width: 40px;
+        height: 40px;
+        border-radius: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.3s ease-in-out;
+    }
+    
+    .soc_flex a:hover {
+        transition: background 0.3s ease-in-out;
+        background: #4e4e4e;
+    }
+    
     #main {
         height: 100%;
         max-height: 1000px;
@@ -208,6 +235,7 @@
     
     .more_btn {
         display: inline-flex;
+        max-width: 155px;
         height: 56px;
         padding: 10px 24px;
         justify-content: center;
@@ -405,6 +433,7 @@
     
     .works_box_number {
         width: 48px;
+        min-width: 48px;
         height: 48px;
         border-radius: 8px;
         display: flex;
@@ -448,6 +477,10 @@
     
     #result {
         padding-top: 87px;
+    }
+    
+    #result .swiper-slide img {
+        border-radius: 16px !important;
     }
     
     .result_title {
@@ -516,6 +549,7 @@
     .sub_title_num {
         font-size: 20px;
         width: 48px;
+        min-width: 48px;
         height: 48px;
         border-radius: 8px;
         background: var(--red);
@@ -538,7 +572,6 @@
     
     .format_content div {
         width: 50%;
-        padding-right: 30px;
         display: flex;
         flex-direction: column;
         gap: 24px;
@@ -564,6 +597,10 @@
         max-width: 481px;
     }
     
+    .format_content .format_left {
+        padding-right: 30px;
+    }
+    
     .format_title p {
         color: #737373;
         font-size: 18px;
@@ -577,6 +614,10 @@
         margin-bottom: 54px;
     }
     
+    .swiper-pagination {
+        display: none !important;
+    }
+    
     .modul_slide {
         border-radius: 16px;
         background: var(--gray);
@@ -586,6 +627,10 @@
         padding: 40px;
         display: flex;
         flex-direction: column;
+    }
+    
+    .result_mob_h2 {
+        display: none;
     }
     
     .modul_slide_header {
@@ -921,6 +966,10 @@
         gap: 16px;
     }
     
+    .acc_box h4 {
+        text-transform: none;
+    }
+    
     .acc_left {
         width: 50%;
         padding-right: 60px;
@@ -953,6 +1002,10 @@
         display: flex;
         justify-content: space-between;
         gap: 40px;
+    }
+    
+    .mob_btn {
+        display: none;
     }
     
     .program_box {
@@ -1174,8 +1227,8 @@
         margin-top: 29px;
     }
     
-    .footer_bottom a {
-        font-family: 'Montserrat', sans-serif;
+    .footer_bottom span {
+        font-family: 'Mulish', sans-serif;
         color: var(--black_text);
         font-size: 16px;
         font-style: normal;
@@ -1184,13 +1237,36 @@
         text-transform: uppercase;
     }
     
+    .footer_top .footer_flex a {
+        font-family: 'Mulish', sans-serif;
+        color: var(--black_text);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    
+    .oferta {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        text-transform: unset !important;
+        color: #949494 !important;
+    }
+    
     .footer_flex {
         gap: 17px;
     }
     
-    .footer_flex a:first-child:after {
+    .footer_flex a::after {
         content: '/';
         margin-left: 17px;
+    }
+    
+    .footer_flex a:last-child:after {
+        display: none;
     }
     
     .program_box_img {
@@ -1228,7 +1304,7 @@
     .popup {
         position: relative;
         background: var(--black_bg);
-        padding: 84px 40px 40px 40px;
+        padding: 40px 40px 40px 40px;
         width: 100%;
         max-width: 900px;
         margin: 20px;
@@ -1279,6 +1355,7 @@
     .speac_flex {
         display: flex;
         gap: 48px;
+        align-items: center;
     }
     
     .speac_flex img {
@@ -1512,6 +1589,7 @@
     .autor_img {
         position: relative;
         width: 620px;
+        min-width: 620px;
         height: 744px;
         border-radius: 16px;
         display: flex;
@@ -1747,4 +1825,12 @@
     
     .mission_result .mission_result_box:first-child span::after {
         content: '+';
+    }
+    
+    .burger-icon {
+        display: none;
+    }
+    
+    .mission_mob_img {
+        display: none;
     }

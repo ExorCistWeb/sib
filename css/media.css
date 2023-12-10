@@ -1,4 +1,25 @@
 @media (max-width:1280px) {
+    #academy {
+        padding-top: 120px !important;
+    }
+    .history_cont p {
+        font-size: 18px;
+    }
+    .autor_img {
+        position: relative;
+        width: 540px;
+        min-width: 540px;
+        height: 600px;
+    }
+    .autor {
+        gap: 40px;
+    }
+    .footer_flex a::after {
+        margin-left: 8px;
+    }
+    .footer_flex {
+        gap: 8px;
+    }
     .wrapper {
         padding: 0 40px;
     }
@@ -15,6 +36,9 @@
     }
     section {
         padding-top: 90px !important;
+    }
+    #main {
+        padding: 0 !important;
     }
     .orange_btn {
         margin: 20px 40px 0;
@@ -38,6 +62,10 @@
     .title {
         margin-left: 40px !important;
     }
+    #works .title,
+    #training .title {
+        margin-left: 0px !important;
+    }
     .format {
         width: 100%;
         margin: 40px 0 54px;
@@ -60,4 +88,478 @@
     }
 }
 
-@media (max-width:1080px) {}
+@media (max-width:1080px) {
+    .autor {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .autor_img {
+        width: 343px;
+        height: 410px;
+        min-width: unset;
+        padding: 24px;
+        margin: 0 auto;
+    }
+    .autor_img_cont h3 {
+        font-size: 24px;
+    }
+    .autor_cont {
+        max-width: unset;
+    }
+    .autor_img_cont p {
+        font-size: 16px;
+    }
+    .academy_video_cont {
+        gap: 24px;
+    }
+    .academy_video {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .academy_cont {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .academy_video .video_feedback {
+        width: unset;
+        height: 350px;
+    }
+    #academy {
+        padding-bottom: 60px;
+    }
+    .academy_cont_box {
+        width: 100%;
+        max-width: unset;
+    }
+    .history {
+        flex-direction: column;
+    }
+    .history_cont {
+        max-height: unset;
+        overflow: auto;
+        max-width: unset;
+    }
+    .history_title p {
+        color: var(--gray_text) !important;
+    }
+    #history,
+    #academy_video {
+        padding: 24px 0 60px !important;
+    }
+    .history_title {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .footer_top {
+        flex-wrap: wrap;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    #main {
+        max-height: 700px;
+    }
+    .header ul {
+        gap: 10px;
+    }
+    .header ul li a {
+        font-size: 14px;
+    }
+    .wrapper {
+        padding: 0 20px;
+    }
+    .mission_result_box span {
+        font-size: 60px;
+    }
+    .kurs_content,
+    .kurs {
+        gap: 16px;
+    }
+    .whom_box,
+    .works_box,
+    .works_box_link {
+        max-width: 344px;
+    }
+    #result .swiper-slide {
+        max-width: 400px;
+    }
+    .abs_stud {
+        right: 100px;
+        top: 336px;
+    }
+    .format {
+        padding: 24px;
+    }
+    .resultStudSwiper .swiper-wrapper,
+    .mySwiper .swiper-wrapper,
+    .title_margin,
+    .sub_title,
+    .title {
+        margin-left: 20px !important;
+    }
+    .black_h2,
+    .format_wrapper {
+        padding: 0 20px;
+    }
+    .span_content {
+        gap: 12px;
+    }
+    .span_content span {
+        font-size: 16px;
+    }
+    .title_programm_black {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .program_box h4,
+    .program_box_two .title_programm_red h4 {
+        font-size: 20px;
+    }
+    .program_content_three {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .acc_right {
+        padding-right: 0;
+    }
+    .acc_left {
+        padding-right: 20px;
+    }
+    .format_content div p {
+        font-size: 16px;
+    }
+    .result_title h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:768px) {
+    #autor {
+        padding: 60px 0 80px !important;
+    }
+    .call_btn {
+        display: none;
+    }
+    .mob_btn {
+        display: flex;
+        max-width: 180px;
+        font-size: 16px;
+        padding: 10px 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .program_box_red,
+    .program_box_lite {
+        width: 100%;
+        max-width: unset;
+    }
+    .feedback_slide {
+        max-width: 342.994px;
+        width: 342.994px;
+        height: 224.168px;
+    }
+    .play_button {
+        width: 78px;
+        height: 78px;
+    }
+    h1 {
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: unset;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .main {
+        gap: 24px;
+    }
+    .mission_info p {
+        margin: 32px 0;
+    }
+    .main p {
+        font-size: 16px;
+    }
+    .mission_pc_img {
+        display: none;
+    }
+    .orange_btn {
+        height: 48px;
+        padding: 10px 24px;
+    }
+    .mob_btn {
+        margin: 0;
+    }
+    .more_btn {
+        height: 48px;
+        padding: 10px 24px;
+        gap: 8px;
+        font-size: 16px;
+    }
+    .mission_mob_img {
+        display: block;
+        border-radius: 16px;
+        width: 100%;
+        margin-top: 48px;
+    }
+    .mission_result {
+        flex-wrap: wrap;
+    }
+    .mission_result_box {
+        max-width: 125px;
+    }
+    .mission_result_box span {
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .mission_result_box p {
+        font-size: 16px;
+    }
+    .header ul {
+        display: none;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background: var(--black_bg);
+        width: 100%;
+        height: 100vh;
+        top: 70px;
+        left: 0;
+        padding: 50px;
+        z-index: 9999;
+    }
+    .menu.show {
+        display: flex !important;
+    }
+    .menu li {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .header ul li a {
+        font-size: 24px;
+    }
+    #mission {
+        padding-top: 84px;
+    }
+    .kurs_content,
+    .program_content {
+        flex-wrap: wrap;
+    }
+    .footer_top,
+    .footer_top ul {
+        flex-direction: column;
+    }
+    .kurs_box {
+        max-height: 300px;
+    }
+    .kurs_box {
+        width: 100%;
+        max-width: unset;
+    }
+    .whom_box,
+    .works_box,
+    .works_box_link {
+        max-width: unset;
+    }
+    .prog_kurs {
+        display: inline-flex;
+        height: 48px;
+        padding: 10px 24px;
+        max-width: 190px;
+        margin-top: 40px;
+    }
+    .works_box,
+    .works_box_link {
+        height: 312px;
+    }
+    .whom_content,
+    .works_content {
+        gap: 16px;
+    }
+    .training_box_title {
+        width: 40% !important;
+    }
+    .training_box_cont {
+        width: 60% !important;
+        padding-left: 20px;
+    }
+    .abs_stud {
+        top: 300px;
+        font-size: 16px;
+    }
+    #result .swiper-slide {
+        width: 289px;
+        height: 187px;
+    }
+    .resultSwiperBottom {
+        margin-top: 20px;
+    }
+    .format_content {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .format_content .format_left {
+        padding: 0;
+    }
+    .format_content div {
+        width: 100%;
+        gap: 16px;
+    }
+    .modul_slide {
+        max-width: 350px !important;
+        padding: 24px;
+    }
+    .modul_slide_header img {
+        width: 72px;
+        height: 72px;
+    }
+    .format_title p {
+        font-size: 14px;
+    }
+    .modul_slide_title h4 {
+        font-size: 16px;
+    }
+    .modul_slide_title {
+        gap: 8px;
+    }
+    .modul_slide_cont p {
+        font-size: 16px !important;
+    }
+    .modul_slide_btn .btn {
+        font-size: 16px;
+        height: 40px;
+        padding: 0px 16px;
+    }
+    .video_feedback {
+        width: 342.994px;
+        height: 224.168px;
+    }
+    .feedback_slide p {
+        font-size: 20px;
+        margin-top: 16px;
+    }
+    .result_h2 {
+        display: none;
+    }
+    .result_mob_h2 {
+        display: block;
+    }
+    .acc_flex {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .acc_flex div {
+        width: 100%;
+    }
+    .acc_left,
+    .acc_right {
+        gap: 16px;
+    }
+    .accordion_btn span {
+        font-size: 18px;
+    }
+    .program_box_three {
+        max-width: unset;
+        width: 100%;
+    }
+    .footer_top ul {
+        width: 100%;
+        align-items: start;
+    }
+    #program {
+        padding-bottom: 120px;
+    }
+    .burger-icon {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .burger-menu {
+        display: flex;
+    }
+    .mission_mob_img {
+        display: none;
+    }
+    .footer_bottom,
+    .footer_flex {
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+        align-items: flex-start;
+    }
+    .footer_flex {
+        padding-top: 24px;
+        border-top: 1px solid var(--gray_line_two);
+    }
+    .footer_flex a::after {
+        display: none;
+    }
+    .footer_top {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .academy_video .video_feedback {
+        width: 344px;
+        height: 221px;
+        margin: 0 auto;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important;
+    }
+    .swiper-pagination {
+        display: block !important;
+    }
+    .swiper-horizontal>.swiper-pagination-progressbar,
+    .swiper-pagination-progressbar.swiper-pagination-horizontal,
+    .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+    .swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+        bottom: 0 !important;
+        top: unset !important;
+        height: 8px !important;
+        background: #212121 !important;
+    }
+    .resultStudSwiper,
+    .mySwiper {
+        padding-bottom: 16px !important;
+    }
+    .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+        background: #303030 !important;
+        border-radius: 20px;
+    }
+    .reddds .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+        background: var( --red) !important;
+        border-radius: 20px;
+    }
+    .reddds .swiper-horizontal>.swiper-pagination-progressbar,
+    .reddds .swiper-pagination-progressbar.swiper-pagination-horizontal,
+    .reddds .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+    .reddds .swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+        background: #fff !important;
+    }
+    #training {
+        display: none;
+    }
+    .mission_info p {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .whom_box .whom_gif {
+        margin-bottom: 46px;
+    }
+    .abs_stud {
+        right: 50px;
+    }
+}

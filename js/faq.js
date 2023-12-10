@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    $('.burger-icon').click(function() {
+        $('.burger-menu').slideToggle();
+        $('body').toggleClass('no-scroll');
+    });
+});
+$(document).ready(function() {
     $('.accordion_btn').click(function() {
         // Проверяем, открыт ли текущий аккордеон
         var isOpen = $(this).next().is(':visible');
