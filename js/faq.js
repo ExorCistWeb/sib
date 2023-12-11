@@ -3,7 +3,18 @@ $(document).ready(function() {
         $('.burger-menu').slideToggle();
         $('body').toggleClass('no-scroll');
     });
+
+    // Добавляем обработчик события клика на кнопки внутри меню
+    $('.burger-menu a').click(function() {
+        // Проверяем ширину экрана
+        if ($(window).width() < 768) {
+            // Закрываем меню
+            $('.burger-menu').slideUp();
+            $('body').removeClass('no-scroll');
+        }
+    });
 });
+
 $(document).ready(function() {
     $('.accordion_btn').click(function() {
         // Проверяем, открыт ли текущий аккордеон

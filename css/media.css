@@ -1,4 +1,7 @@
 @media (max-width:1280px) {
+    .mySwiper .swiper-wrapper {
+        margin-left: 0px !important;
+    }
     #academy {
         padding-top: 120px !important;
     }
@@ -189,7 +192,7 @@
     }
     .abs_stud {
         right: 100px;
-        top: 336px;
+        top: 206px;
     }
     .format {
         padding: 24px;
@@ -219,9 +222,12 @@
     .program_box_two .title_programm_red h4 {
         font-size: 20px;
     }
-    .program_content_three {
-        flex-wrap: wrap;
-        justify-content: center;
+    .program_box_three_img {
+        min-width: 250px;
+    }
+    .program_content,
+    .program_wrapper {
+        gap: 20px;
     }
     .acc_right {
         padding-right: 0;
@@ -235,9 +241,19 @@
     .result_title h3 {
         font-size: 24px;
     }
+    .mySwiper .swiper-wrapper {
+        margin-left: 0px !important;
+    }
+    .resultStudSwiper .swiper-wrapper {
+        margin-left: 0px !important;
+    }
 }
 
 @media (max-width:768px) {
+    .program_content_three {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     #autor {
         padding: 60px 0 80px !important;
     }
@@ -253,6 +269,12 @@
 }
 
 @media (max-width: 768px) {
+    .program_box_img {
+        bottom: unset;
+        top: 30%;
+        right: 10px;
+        z-index: 1;
+    }
     .program_box_red,
     .program_box_lite {
         width: 100%;
@@ -266,6 +288,10 @@
     .play_button {
         width: 78px;
         height: 78px;
+    }
+    .program_box_four {
+        overflow: hidden;
+        max-width: unset;
     }
     h1 {
         font-size: 28px;
@@ -391,7 +417,8 @@
         padding-left: 20px;
     }
     .abs_stud {
-        top: 300px;
+        top: unset;
+        bottom: 430px;
         font-size: 16px;
     }
     #result .swiper-slide {
@@ -505,9 +532,39 @@
         border-bottom: none;
         padding-bottom: 0;
     }
+    .speac_flex {
+        flex-wrap: wrap;
+    }
+    .speac_flex img {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 @media (max-width: 480px) {
+    .academy_cont_box h3 {
+        font-size: 18px;
+    }
+    .popup .close-btn {
+        top: 5px;
+        right: 5px;
+    }
+    .popup .white_p {
+        font-size: 14px !important;
+    }
+    .popup p {
+        font-size: 14px !important;
+    }
+    .sub_title h3 {
+        font-size: 18px;
+    }
+    .abs_stud {
+        bottom: 420px;
+        top: unset;
+    }
+    .resultStudSwiper {
+        padding: 0 20px 16px 20px !important;
+    }
     .academy_video .video_feedback {
         width: 344px;
         height: 221px;

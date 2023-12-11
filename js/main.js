@@ -9,7 +9,18 @@ var swiper = new Swiper(".resultSwiperTop", {
         autoplayDisableOnInteraction: false,
         disableOnInteraction: true,
     },
-    allowTouchMove: false
+    allowTouchMove: false,
+    breakpoints: {
+
+        320: {
+
+            spaceBetween: 16,
+
+        },
+        768: {
+            spaceBetween: 40,
+        }
+    },
 });
 var swiper = new Swiper(".resultSwiperBottom", {
     slidesPerView: 'auto',
@@ -23,7 +34,18 @@ var swiper = new Swiper(".resultSwiperBottom", {
         reverseDirection: true,
         autoplayDisableOnInteraction: false,
     },
-    allowTouchMove: false
+    allowTouchMove: false,
+    breakpoints: {
+
+        320: {
+
+            spaceBetween: 16,
+
+        },
+        768: {
+            spaceBetween: 40,
+        }
+    },
 });
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 'auto',
@@ -32,13 +54,14 @@ var swiper = new Swiper(".mySwiper", {
     loop: true,
     breakpoints: {
 
-        100: {
+        320: {
 
             spaceBetween: 20,
             centeredSlides: true,
             loop: false,
+            slidesPerView: 'auto',
         },
-        768: {
+        1080: {
             loop: true,
             centeredSlides: false,
             slidesPerView: 'auto',
@@ -66,6 +89,7 @@ var swiper = new Swiper(".resultStudSwiper", {
             spaceBetween: 20,
             centeredSlides: true,
             loop: false,
+            slidesPerView: 'auto',
         },
         768: {
             loop: true,

@@ -1838,3 +1838,7 @@
     .mission_mob_img {
         display: none;
     }
+    
+    .mySwiper .swiper-wrapper {
+        margin-left: 0px !important;
+    }
