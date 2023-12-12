@@ -630,3 +630,9 @@
         right: 50px;
     }
 }
+
+@media (max-width:398px) {
+    #faq .black_h2 {
+        max-width: 234px;
+    }
+}
