@@ -542,6 +542,9 @@
 }
 
 @media (max-width: 480px) {
+    .mySwiper_two {
+        margin-top: 30px;
+    }
     .academy_cont_box h3 {
         font-size: 18px;
     }
@@ -556,6 +559,13 @@
         font-size: 14px !important;
     }
     .sub_title h3 {
+        font-size: 18px;
+        max-width: 250px;
+    }
+    .resultStudSwiper {
+        margin-top: 32px;
+    }
+    .h4_black {
         font-size: 18px;
     }
     .abs_stud {
